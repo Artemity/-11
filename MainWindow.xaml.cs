@@ -35,8 +35,7 @@ namespace практика_11
         private void btnRez1_Click(object sender, RoutedEventArgs e)
         {
             listBox1.Items.Clear(); // Очищаем элементы в listBox1 перед выводом новых данных
-            string line = "aa aba abba abbba abbbba abbbbba"; // Определяем строку для регулярного выражения
-            outLine1.Text = line;
+            string line = outLine1.Text ;
             Regex regex = new Regex("a(b{4,})a"); // Создаем объект регулярного выражения для поиска строк вида "a", за которым следует 4 или более "b", и снова "a"
             MatchCollection match = regex.Matches(line); // Находим все соответствия регулярного выражения в строке.
             for (int i = 0; i < match.Count; i++) // Цикл по всем найденным совпадениям
@@ -48,8 +47,7 @@ namespace практика_11
         private void btnRez_Click(object sender, RoutedEventArgs e)
         {
             listBox2.Items.Clear();
-            string line = "avb a1b a2b a3b a4b a5b abb acb";
-            outLine2.Text = line;
+            string line = outLine2.Text;
             Regex regex = new Regex("a[^0-9]b"); // Создаем объект регулярного выражения для поиска строк, где буквы "a" и "b" разделены нецифровым символом
             MatchCollection match = regex.Matches(line);
             for (int i = 0; i < match.Count; i++)

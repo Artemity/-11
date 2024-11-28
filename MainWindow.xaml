@@ -21,7 +21,7 @@
                 </Grid.RowDefinitions>
                 <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="105" Margin="10,88,0,0" VerticalAlignment="Top" Width="120"/>
                 <Button Content="Решить" HorizontalAlignment="Left" Margin="10,198,0,0" VerticalAlignment="Top" Width="120" Click="btnRez1_Click"/>
-                <TextBox x:Name="outLine1" HorizontalAlignment="Left" Height="37" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+                <TextBox x:Name="outLine1" HorizontalAlignment="Left" Height="37" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="False" Text="aa aba abba abbba abbbba abbbbba"/>
                 <Label Content="Начальная строчка" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top"/>
                 <Label Content="Результат" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
             </Grid>
@@ -30,7 +30,7 @@
             <Grid Height="218" Margin="10,0,0,0">
                 <ListBox x:Name="listBox2" HorizontalAlignment="Left" Height="105" Margin="10,88,0,0" VerticalAlignment="Top" Width="120"/>
                 <Button Content="Решить" HorizontalAlignment="Left" Margin="10,198,0,0" VerticalAlignment="Top" Width="120" Click="btnRez_Click"/>
-                <TextBox x:Name="outLine2" HorizontalAlignment="Left" Height="37" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+                <TextBox x:Name="outLine2" HorizontalAlignment="Left" Height="37" Margin="10,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="False" Text="avb a1b a2b a3b a4b a5b abb acb"/>
                 <Label Content="Начальная строчка" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top"/>
                 <Label Content="Результат" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"/>
             </Grid>
